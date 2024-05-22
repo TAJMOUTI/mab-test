@@ -1,0 +1,36 @@
+.Prologue{
+    padding: 0 0 50px 0;
+    position: relative;
+}
+.Repereschrono{
+    padding: 0 0 50px 0;
+    position: relative;
+}
+.Chapitre{
+    padding: 0 0 50px 0;
+    position: relative;
+}
+
+.page{
+    margin: 10% auto;                                                          
+    max-width: 80%;                                                            
+    height: auto;                                                          
+    display: block;
+}
+
+.PDF-viewer-container {
+    margin: 5%;
+    position: relative; /* Ajoutez cette propriété */
+    z-index: 1; /* Ajoutez cette propriété */
+    top: 30vh
+}
+
+/* Ajoutez ce style pour la Navbar */
+.navbar{
+    position: relative;
+    z-index: 2; /* Assurez-vous que z-index est supérieur à celui du PDF Viewer */
+}
+
+.no-scroll {
+    overflow: hidden;
+  }
